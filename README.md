@@ -25,6 +25,15 @@ Real telemetry data · XGBoost ML model · Live race simulation · Real-time ani
 
 The system fetches lap-level data from the [FastF1](https://github.com/theOehrly/Fast-F1) API, engineers 12 predictive features from sector times and tyre telemetry, trains an **XGBoost regression model** to predict individual lap times, and runs a deterministic lap-by-lap race simulation. The result is rendered as a **real-time matplotlib animation** at 45× speed.
 
+## ✨ Highlights
+
+- Real Formula 1 telemetry analysis
+- Machine learning race prediction
+- FastF1 API integration
+- Real-time animated race simulation
+- XGBoost regression pipeline
+- Track visualization system
+
 ### ✅ Key Results — 2022 Italian Grand Prix (Monza)
 
 | Metric | Result |
@@ -62,10 +71,23 @@ The system fetches lap-level data from the [FastF1](https://github.com/theOehrly
 
 ```bash
 # Clone the repository
-git clone https://github.com/YOUR_USERNAME/GridLogic-F1-Prediction.git
+git clone git clone https://github.com/32krish/GridLogic-F1-Prediction.git
 cd GridLogic-F1-Prediction
 
 # Install dependencies
+pip install -r requirements.txt
+```
+
+### Virtual Environment
+```bash
+python -m venv .venv
+
+# Windows
+.venv\Scripts\activate
+
+# Linux/macOS
+source .venv/bin/activate
+
 pip install -r requirements.txt
 ```
 
