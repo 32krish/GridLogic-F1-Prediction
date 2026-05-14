@@ -1,0 +1,14 @@
+# F1 data
+fastf1==3.5.3
+
+# Machine learning
+xgboost==2.1.4
+scikit-learn==1.6.1
+
+# Data processing
+pandas==2.2.3
+numpy==2.2.5
+
+# Visualization
+arcade==2.6.17
+matplotlib==3.8.4
